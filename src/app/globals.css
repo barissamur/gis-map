@@ -10,3 +10,32 @@ body,
   height: 100%;
   width: 100%;
 }
+
+
+header {
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+header .logo a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+header nav ul li a:hover {
+  color: #000;
+}
